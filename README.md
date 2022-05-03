@@ -1,21 +1,21 @@
 # Stock Console Mobile Application
 
 ## Aim
-<hr>
+
 The objective of this project is to develop a distributed file sharing system
 using the RMI framework in java.
 
 <br>
 
 ## Description
-<hr>
+
 
 It is required to implement a replicated file system. There will be one main server (master) and data will be partitioned and replicated on multiple replicaServers. This file system allows its concurrent users to perform transactions, while guaranteeing ACID properties.
 
 <br>
 
 ## Design Assumptions
-<hr>
+
 
 ```
 1) Master server never transfers data.
